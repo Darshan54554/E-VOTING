@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url('../assets/5166950.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(215, 210, 210, 0.521);
+    /* border-radius: 10px; */
+    padding: 15px 25px;
+    width: 100%;
+    border-radius: 10px;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 10;
+}
+
+#content {
+    padding: 25px 25px
+}
+
+th {
+    font-weight: bolder;
+    color: #274465;
+}
+
+tr {
+    border: 1px solid;
+    border: 1px solid rgb(189, 189, 189);
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+button {
+    margin: 15px;
+    width: 10rem;
+}
+
+label {
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+
+.form-group {
+    margin-top: 25px;
+}
+
+.text-end {
+    text-align: end;
+    font-weight: 500;
+    color: rgb(169, 0, 34);
+    text-transform: none;
+}
+
+#tag {
+    color: rgb(94, 0, 98);
+}
+
+#voteStatus {
+    padding: 3rem;
+    text-transform: none;
+    background-color: #a5c0aa;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    text-decoration: rgb(4, 247, 166);
+    color: rgb(0, 85, 0);
+}
+
+#myAccount {
+    padding-top: 1rem;
+    color: rgb(0, 0, 0);
+}
+
+#accountTag {
+    font-weight: bold;
+    font-size: medium;
+}
+
+#note {
+    font-size: small;
+    color: rgb(177, 8, 8);
+    text-transform: none;
+}
